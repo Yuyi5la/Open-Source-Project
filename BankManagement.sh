@@ -419,7 +419,7 @@ showAccount() {
         read accID
     done
 
-    echo -e "\033[94;5;1mAccount Information------------------------\033[0m"
+    echo -e "\033[94;1mAccount Information------------------------\033[0m"
     awk -v awkID=$accID '{ if ($1 == awkID) print "Name: " $2}' FS="," example.csv
     awk -v awkID=$accID '{ if ($1 == awkID) print "Date of Birth: " $3}' FS="," example.csv
     awk -v awkID=$accID '{ if ($1 == awkID) print "National Number: " $4}' FS="," example.csv
