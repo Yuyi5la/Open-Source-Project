@@ -8,10 +8,10 @@ entryPoint()
 	echo "===================================================================="
 
 	echo -e "\033[31m1) Create a new customer account"
-	echo -e "\033[32m2) Update Account Data" 
-	echo -e "\033[33m3) View and Manage Transaction" 
-	echo -e "\033[34m4) Check Customer's Account Details"
-	echo -e "\033[97m5) Delete Customer's Account"
+	echo -e "\033[32m2) Update account data" 
+	echo -e "\033[33m3) View and manage transaction" 
+	echo -e "\033[34m4) Check customer's account details"
+	echo -e "\033[97m5) Delete customer's account"
 	echo -e "\033[36m6) Exit\e[0m\n"
 	echo "Choose an option:"
 	read choice
