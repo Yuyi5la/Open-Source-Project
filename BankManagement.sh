@@ -30,7 +30,8 @@ addAccount() {
 
     clear
     echo "Enter Your Full Name: "
-    read name
+    read fName lName
+    name=$fName" "$lName
 
     while [[ $name =~ [[:digit:]] || -z $name ]]; do
         echo "Your name must not have numerics or be left empty, Try again: "
@@ -457,7 +458,7 @@ deleteAccount() {
     done
     echo "Are you sure you want to delete this account?"
     echo "1) Yes"
-    echo "1) No"
+    echo "2) No"
     read deleteChoice
 
     case $deleteChoice in
