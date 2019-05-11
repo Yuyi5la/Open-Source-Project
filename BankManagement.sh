@@ -2,6 +2,7 @@
 entryPoint()
 {
     clear
+    echo -e "\033[97;1mITC 350-Open Source Software Project\n\n"
 	echo "===================================================================="
 	echo -e "             \033[94;5;1mCustomer Account Banking System        \033[0m"
 	echo "===================================================================="
